@@ -1,0 +1,82 @@
+body {
+    background: url("21j3kwm.jpg");
+    background-size: 1300px auto;
+    text-align: center;
+}
+
+.col {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 340px;
+    background: white;
+    border-radius: 7px;
+}
+
+.toprow {
+    background: rgba(72, 70, 70, 0.97);
+    height: 180px;
+}
+
+.toprow>.title {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.toprow>.price {
+    text-align: center;
+}
+
+.toprow>.price * {
+    display: inline-block;
+    color: #fff;
+}
+
+.number {
+    font-size: 3em;
+    margin-left: 40px;
+}
+
+.btn {
+    border: 1px solid #fff;
+    width: 170px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 3px;
+    margin-top: 15px;
+}
+
+.dollar {
+    position: relative;
+    top: -20px;
+}
+
+.mes {
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 0.5px solid black;
+    display: inline-block;
+}
+
+.data {
+    padding: 5px;
+    border-bottom: 0.5px solid black;
+    display: inline-block;
+}
+
+.user {
+    padding: 5px;
+    border-bottom: 0.5px solid black;
+    display: inline-block;
+}
+
+.free {
+    padding: 5px;
+    display: inline-block;
+}
