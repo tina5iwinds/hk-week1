@@ -140,7 +140,7 @@ li{
 //  02 - Header
 ///////////////////////////////////////////////////////////////////////*/
  
-    
+
 
 header.top-header {
   position: fixed;
@@ -157,10 +157,11 @@ header.top-header {
   margin-bottom: 10px;
   transition: all .6s;
 }
-.shows .navbar-nav {
-  float: right;
+fuck li{
+float: right;
   margin: 15px 0 0;
   color: white;
+    white-space: nowrap; 
 }
 .shows h1.logo {
   margin-top: 0px;
@@ -176,11 +177,6 @@ h1.logo {
   position: relative;     
   text-align: center;
   padding: 0 !important;
-}
-.navbar-nav {
-  float: right;
-  margin: 31px 0 0;
-  color: white;
 }
 #header .top {
   position:fixed;
@@ -282,12 +278,13 @@ h1.logo {
     list-style: none;
     padding-left: 20px;
 }
-#drawer-right .social ul > li {
+ #drawer-right .social ul > li {
     display: inline-block;
 }
 #drawer-right .social ul > li > a:hover{
   color: white;
 }
+
 
 
 
@@ -667,10 +664,6 @@ h2.footer-block {
 
   .nav-stacked>li+li {
     margin-top: 0;
-  }
-
-  .nav>li>a {
-    padding: 8px 15px;
   }
 
   #drawer-right .social {

@@ -1,6 +1,9 @@
 #search{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .font{
-    text-align: right;
+    text-align: center;
+}
+td{
+    padding: 20px;
 }
